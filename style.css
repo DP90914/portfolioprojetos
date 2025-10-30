@@ -5,10 +5,10 @@
 }
 :root{
     --color1: #70decf;
-    --color2: #4fb37c;
-    --color3: #79b36b;
-    --color4: #a2ab5e;
-    --color5: #bca95b;
+    --color2: #83f8e6;
+    --color3: #a6eee3;
+    --color4: #54e3ce;
+    --color5: #adf5ea;
 }
 body{
     font-family:sans-serif;
@@ -45,6 +45,7 @@ header img{
     border-radius: 15px;
 }
 .section2{
+    background-color: var(--color2);
     padding-block: 40px;
     display: flex;
     gap: 12px;
@@ -70,6 +71,7 @@ header img{
     border-radius: 15px;
 }
 .section3{
+    background-color: var(--color3);
     padding-block: 40px;
     display: flex;
     text-align: center;
@@ -98,6 +100,7 @@ header img{
     border-radius: 15px;
 }
 .section4{
+    background-color: var(--color4);
     padding-block: 40px;
     display: flex;
     text-align: center;
