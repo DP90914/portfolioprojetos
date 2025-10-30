@@ -1,0 +1,84 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+:root{
+    --color1: #2eb3a1;
+    --color2: #4fb37c;
+    --color3: #79b36b;
+    --color4: #a2ab5e;
+    --color5: #bca95b;
+}
+body{
+    background-color: var(--color1);
+}
+header{
+    margin: 30px;
+    display: flex;
+    gap: 16px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+header div{
+    width: 900px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 60px;
+
+}
+header div h1{
+    font-size: 5.5rem;
+}
+header div h2{
+    font-size: 5rem;
+    font-weight: 100;
+}
+header div p{
+    font-size: 4rem;
+}
+header img{
+    max-width: 50%;
+    height: auto;
+}
+.section2{
+    border-top: black solid 1px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    background-color: white;
+}
+.section2 div img{
+    padding: 35px;
+    border: solid black 1px;
+    width: 300px;
+    height: 350px;
+ 
+}
+.section3{
+    border-top: black solid 1px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    background-color: white;
+
+}
+.projetos{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+.projetos div{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border: solid black 1px;
+}
+.projetos div img{
+    height: 300px;
+    width: 440px;
+}
